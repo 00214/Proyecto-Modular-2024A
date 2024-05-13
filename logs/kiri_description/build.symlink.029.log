@@ -1,0 +1,18 @@
+Symlinking /home/kiri/kiri_ws/devel/include/kiri_description/kiri_controller_data.h
+Symlinking /home/kiri/kiri_ws/devel/share/common-lisp/ros/kiri_description/msg/kiri_description-msg.asd
+Symlinking /home/kiri/kiri_ws/devel/share/common-lisp/ros/kiri_description/msg/kiri_controller_data.lisp
+Symlinking /home/kiri/kiri_ws/devel/share/common-lisp/ros/kiri_description/msg/_package_kiri_controller_data.lisp
+Symlinking /home/kiri/kiri_ws/devel/share/common-lisp/ros/kiri_description/msg/_package.lisp
+Symlinking /home/kiri/kiri_ws/devel/share/gennodejs/ros/kiri_description/_index.js
+Symlinking /home/kiri/kiri_ws/devel/share/gennodejs/ros/kiri_description/msg/_index.js
+Symlinking /home/kiri/kiri_ws/devel/share/gennodejs/ros/kiri_description/msg/kiri_controller_data.js
+Symlinking /home/kiri/kiri_ws/devel/share/roseus/ros/kiri_description/manifest.l
+Symlinking /home/kiri/kiri_ws/devel/share/roseus/ros/kiri_description/msg/kiri_controller_data.l
+Linked: (/home/kiri/kiri_ws/devel/.private/kiri_description/share/kiri_description/cmake/kiri_descriptionConfig.cmake, /home/kiri/kiri_ws/devel/share/kiri_description/cmake/kiri_descriptionConfig.cmake)
+Symlinking /home/kiri/kiri_ws/devel/share/kiri_description/cmake/kiri_description-msg-paths.cmake
+Linked: (/home/kiri/kiri_ws/devel/.private/kiri_description/share/kiri_description/cmake/kiri_descriptionConfig-version.cmake, /home/kiri/kiri_ws/devel/share/kiri_description/cmake/kiri_descriptionConfig-version.cmake)
+Symlinking /home/kiri/kiri_ws/devel/share/kiri_description/cmake/kiri_description-msg-extras.cmake
+Linked: (/home/kiri/kiri_ws/devel/.private/kiri_description/lib/pkgconfig/kiri_description.pc, /home/kiri/kiri_ws/devel/lib/pkgconfig/kiri_description.pc)
+Symlinking /home/kiri/kiri_ws/devel/lib/python3/dist-packages/kiri_description/__init__.py
+Symlinking /home/kiri/kiri_ws/devel/lib/python3/dist-packages/kiri_description/msg/_kiri_controller_data.py
+Symlinking /home/kiri/kiri_ws/devel/lib/python3/dist-packages/kiri_description/msg/__init__.py

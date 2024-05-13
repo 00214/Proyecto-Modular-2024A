@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kiri/kiri_ws/devel/.private/moveit_kiri_sim/setup.sh

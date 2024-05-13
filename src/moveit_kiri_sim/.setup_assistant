@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kiri_description
+    relative_path: urdf/kiri.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/kiri.srdf
+  CONFIG:
+    author_name: RAUL BAEZA
+    author_email: raul.baeza3078@alumnos.udg.mx
+    generated_timestamp: 1714791247

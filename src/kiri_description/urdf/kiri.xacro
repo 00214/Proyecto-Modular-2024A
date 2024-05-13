@@ -1,0 +1,395 @@
+<?xml version="1.0" ?>
+<robot name="kiri" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<material name="silver">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+
+<link name="world"/>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-8.76585590771171e-09 4.625245772864268e-06 0.07417200620727467" rpy="0 0 0"/>
+    <mass value="0.9675774171477199"/>
+    <inertia ixx="0.003719" iyy="0.00372" izz="0.004249" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_1">
+  <inertial>
+    <origin xyz="0.027954075371558952 1.2774374489040782e-05 0.05220057652640059" rpy="0 0 0"/>
+    <mass value="5.265953212721398"/>
+    <inertia ixx="0.010161" iyy="0.013402" izz="0.010957" ixy="-3e-06" iyz="-4e-06" ixz="-0.002233"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.1325" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.1325" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_2">
+  <inertial>
+    <origin xyz="-0.009366936538197338 6.552889258269089e-05 0.0868435772977198" rpy="0 0 0"/>
+    <mass value="4.755056928672819"/>
+    <inertia ixx="0.021197" iyy="0.02322" izz="0.006427" ixy="4.7e-05" iyz="-2.2e-05" ixz="0.000291"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.01214 -3.7e-05 -0.201" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.01214 -3.7e-05 -0.201" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_3">
+  <inertial>
+    <origin xyz="0.03367813641743217 0.02807292880094013 0.04634724012081071" rpy="0 0 0"/>
+    <mass value="2.1374333901596967"/>
+    <inertia ixx="0.003913" iyy="0.003043" izz="0.003902" ixy="-0.000494" iyz="-0.000544" ixz="-0.000816"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.01214 -3.7e-05 -0.381" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.01214 -3.7e-05 -0.381" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_4">
+  <inertial>
+    <origin xyz="-0.005245756214769193 -0.0568895633097273 -5.6206644053091726e-05" rpy="0 0 0"/>
+    <mass value="1.9217220636357484"/>
+    <inertia ixx="0.002413" iyy="0.001547" izz="0.003204" ixy="-0.0003" iyz="2e-06" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.02986 0.018433 -0.43675" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.02986 0.018433 -0.43675" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_5">
+  <inertial>
+    <origin xyz="-0.03675423901652705 -0.017700782592636938 0.0015003431425436586" rpy="0 0 0"/>
+    <mass value="1.2304142348960045"/>
+    <inertia ixx="0.000652" iyy="0.000572" izz="0.000763" ixy="1.7e-05" iyz="-2.5e-05" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.066857 0.131028 -0.436864" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.066857 0.131028 -0.436864" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_6">
+  <inertial>
+    <origin xyz="7.833925852393508e-07 -0.03197623200813002 0.0018351299632954898" rpy="0 0 0"/>
+    <mass value="1.1291372268909337"/>
+    <inertia ixx="0.000689" iyy="0.000534" izz="0.000817" ixy="0.0" iyz="2.5e-05" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.030903 0.183096 -0.43675" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.030903 0.183096 -0.43675" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_7">
+  <inertial>
+    <origin xyz="-0.004921227163283956 -0.023684275487197648 0.003200785967374775" rpy="0 0 0"/>
+    <mass value="0.029228077051732436"/>
+    <inertia ixx="7e-06" iyy="1e-06" izz="8e-06" ixy="-2e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.045903 0.245346 -0.43425" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.045903 0.245346 -0.43425" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="link_8">
+  <inertial>
+    <origin xyz="0.004921215123471288 -0.023684480128247754 -0.001799208914471384" rpy="0 0 0"/>
+    <mass value="0.029227870763452804"/>
+    <inertia ixx="7e-06" iyy="1e-06" izz="8e-06" ixy="2e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.015903 0.245346 -0.43925" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.015903 0.245346 -0.43925" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://kiri_description/meshes/link_8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_joint" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+</joint>
+
+<joint name="joint_1" type="revolute">
+  <origin xyz="0.0 0.0 0.1325" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="link_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_2" type="revolute">
+  <origin xyz="-0.01214 3.7e-05 0.0685" rpy="0 0 0"/>
+  <parent link="link_1"/>
+  <child link="link_2"/>
+  <axis xyz="1.0 -0.0 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_3" type="revolute">
+  <origin xyz="0.0 0.0 0.18" rpy="0 0 0"/>
+  <parent link="link_2"/>
+  <child link="link_3"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_4" type="revolute">
+  <origin xyz="0.042 -0.01847 0.05575" rpy="0 0 0"/>
+  <parent link="link_3"/>
+  <child link="link_4"/>
+  <axis xyz="0.0 -1.0 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_5" type="revolute">
+  <origin xyz="0.036997 -0.112595 0.000114" rpy="0 0 0"/>
+  <parent link="link_4"/>
+  <child link="link_5"/>
+  <axis xyz="-1.0 0.0 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_6" type="revolute">
+  <origin xyz="-0.035954 -0.052068 -0.000114" rpy="0 0 0"/>
+  <parent link="link_5"/>
+  <child link="link_6"/>
+  <axis xyz="-0.0 -1.0 0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_7" type="revolute">
+  <origin xyz="0.015 -0.06225 -0.0025" rpy="0 0 0"/>
+  <parent link="link_6"/>
+  <child link="link_7"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="1.74533" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_8" type="revolute">
+  <origin xyz="-0.015 -0.06225 0.0025" rpy="0 0 0"/>
+  <parent link="link_6"/>
+  <child link="link_8"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="1.74533" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<transmission name="joint_1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_1">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_1_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_2">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_2_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_3">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_3_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_4_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_4">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_4_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_5_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_5">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_5_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_6_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_6">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_6_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_7_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_7">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_7_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="joint_8_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="joint_8">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="joint_8_motor">
+    <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<gazebo>
+  <plugin name="control" filename="libgazebo_ros_control.so">
+    <robotNamespace>/</robotNamespace>
+  </plugin>
+</gazebo>
+
+<gazebo reference="link_1">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_2">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_3">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_4">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_5">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_6">
+  <selfCollide>true</selfCollide>
+</gazebo>
+
+<gazebo reference="link_7">
+  <selfCollide>false</selfCollide>
+</gazebo>
+
+<gazebo reference="link_8">
+  <selfCollide>false</selfCollide>
+</gazebo>
+
+</robot>

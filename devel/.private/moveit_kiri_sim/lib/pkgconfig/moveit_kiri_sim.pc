@@ -1,0 +1,8 @@
+prefix=/home/kiri/kiri_ws/devel/.private/moveit_kiri_sim
+
+Name: moveit_kiri_sim
+Description: Description of moveit_kiri_sim
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

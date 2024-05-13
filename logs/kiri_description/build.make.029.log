@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _kiri_description_generate_messages_check_deps_kiri_controller_data[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target kiri_description_xacro_generated_to_devel_space_
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _kiri_description_generate_messages_check_deps_kiri_controller_data
+[35m[1mScanning dependencies of target kiri_description_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target kiri_description_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target kiri_description_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target kiri_description_generate_messages_py[0m
+[35m[1mScanning dependencies of target kiri_description_generate_messages_eus[0m
+[ 85%] [34m[1mGenerating EusLisp code from kiri_description/kiri_controller_data.msg[0m
+[ 85%] [34m[1mGenerating Lisp code from kiri_description/kiri_controller_data.msg[0m
+[ 85%] [34m[1mGenerating C++ code from kiri_description/kiri_controller_data.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG kiri_description/kiri_controller_data[0m
+[ 85%] [34m[1mGenerating Javascript code from kiri_description/kiri_controller_data.msg[0m
+[ 85%] [34m[1mGenerating EusLisp manifest code for kiri_description[0m
+[ 85%] Built target kiri_description_generate_messages_lisp
+[ 85%] Built target kiri_description_generate_messages_nodejs
+[100%] [34m[1mGenerating Python msg __init__.py for kiri_description[0m
+[100%] Built target kiri_description_generate_messages_cpp
+[100%] Built target kiri_description_generate_messages_py
+[100%] Built target kiri_description_generate_messages_eus
+[35m[1mScanning dependencies of target kiri_description_generate_messages[0m
+[100%] Built target kiri_description_generate_messages
